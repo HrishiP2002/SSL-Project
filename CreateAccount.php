@@ -27,7 +27,7 @@ if($user != NULL && $pass != NULL && $carNo != NULL && $email != NULL && $eWalle
 
     if($conn->query($sql)==TRUE)
     {
-        echo("<br>Account created succesfully.");
+        echo("<br><h1>Account created succesfully.</h1>");
         echo("<form action='index.php'><button type = 'submit'>Back To Homepage</button></form>");
     }
 
@@ -53,9 +53,16 @@ else
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <style> 
+    body {
+        background-image: url(sunset.jpg);
+    }
+</style>
+
 </head>
 <body>
-    <div style="background-image: url(sunset.jpg);">
-</div>
+    <!-- <div style="background-image: url(sunset.jpg);">
+    Hellooo
+</div> -->
 </body>
 </html>
