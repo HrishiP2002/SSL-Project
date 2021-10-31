@@ -81,47 +81,15 @@ else
 
 <html>
     <head>
+    <link rel="stylesheet" href="Homepage.css">
+
         <title>Home Page</title>
         <style>
         th, p {text-align: left;}
         body {
               font-family: Arial, Helvetica, sans-serif;
             }
-      header {
-           background-color: rgb(102, 102, 102);
-           padding: 30px;
-           text-align: center;
-           font-size: 30px;
-           color: black;
-             }             
 
-        nav{
-          float:left;
-          width:38%;
-          background-color: bisque;
-          padding: 30px;
-          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-          font-size: 20px;
-        }
-
-        article{
-          float:right;
-          width:55.4%;
-          background-color:burlywood;
-          padding: 20px;
-          height:175px;
-          font-size: 20px;
-          text-align: justify;
-        }
-        footer{
-          text-align: center;
-          background-color: rgb(102, 102, 102);
-          padding: 20px;
-          font-family: Georgia, 'Times New Roman', Times, serif;
-          font-size: 40px;
-          color: wheat;
-
-        }
     </style>
 
     </head>
