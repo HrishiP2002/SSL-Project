@@ -9,6 +9,11 @@ $Username = "root";
 $Password = "";
 $dbname = "Plaza";
 
+session_start();
+$_SESSION['user'] = $User;
+$_SESSION['pass'] = $Pass;
+// $_SESSION['pc'] = 0;
+// $_SESSION[]
 
 $conn = mysqli_connect($hostname, $Username, $Password, $dbname );
 

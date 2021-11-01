@@ -42,7 +42,8 @@ $sql2 = "CREATE TABLE Users(
     Pass VARCHAR(100)  ,
     Email_id VARCHAR(100)  ,
     CarNo VARCHAR(30) ,
-    eWalletNo INT(16)
+    eWalletNo INT(16),
+    eWallet_balance INT DEFAULT 0
     )";
 
 if($conn->query($sql2)==TRUE)
@@ -95,10 +96,11 @@ else
     </head>
 
     <body>
+        <font color="white">
         <header>
         <h1>Welcome to Toll Plaza!!</h1>
 
-        <p>Please select one option to continue: </p>
+        <p>Please select one option to continue: </p><br>
 
         </header>
 
@@ -111,7 +113,7 @@ else
         </form>
         </div>
             </nav>
-        </section>
+        </section><br>
         <article>
         <div> <h3>login to your account: </h3>
         <form action="loginForm.php">
@@ -119,7 +121,7 @@ else
         </form>
         </div>
         </article>
-
+        </font>
     </body>
 </html>
 
