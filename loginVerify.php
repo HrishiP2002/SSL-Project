@@ -30,13 +30,18 @@ $count = $result->num_rows;
 
 if(  $count>0)
 {
-    echo "Username and password authenticated";
-    echo "<br>Please <a href = loginProceed.php>click here</a> to continue";
+   echo "<script>
+alert('Username and password authenticated');
+window.location.href='loginProceed.php';  
+</script>";
 }
 
 else
 {
-    echo "Usename or password incorrect";
+  echo "<script>
+alert('Usename or password incorrect');
+window.location.href='loginForm.php';  
+</script>";
 }
 
 ?>
