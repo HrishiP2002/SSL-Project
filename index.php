@@ -120,6 +120,13 @@ else
             <button type = "submit">Sign in</button>
         </form>
         </div>
+
+        <div>
+            <h3>Login as administrator : </h3>
+            <form action="adminform.php">
+            <button type = "submit">Sign in</button>
+        </form>
+        </div>
         </article>
         </font>
     </body>

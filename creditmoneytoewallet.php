@@ -1,5 +1,7 @@
 <?php
 
+
+
 ?>
 
 <!DOCTYPE html>
@@ -12,13 +14,16 @@
 </head>
 <body>
 
-    <h1>Please enter your New Horizon Bank account number: </h1>
+    <h1>Please enter your New Horizon Bank account number and pin: </h1>
 
-    <form action="creditcheck.php" method='$_POST'>
+    <form action="creditcheck.php" method='post'>
     <label for="AcNo"></label><br>
     <input type="text" id="AcNo" name="AcNo"  placeholder="Account Number"><br>
 
-    <input class="submit" type="submit" align="center"></input>
+    <label for="pin"></label><br>
+    <input type="text" id="pin" name="pin"  placeholder="Pin"><br>
+
+    <input class="submit" type="submit" ></input>
 
 
     </form>
