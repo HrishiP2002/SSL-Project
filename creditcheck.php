@@ -34,6 +34,7 @@ $sql1 = "SELECT * FROM Account_info WHERE (Userid = $AccountNo) AND (pin = $Pin)
 $result = $conn_bank->query($sql1);
 
 
+
 if($result==true && $result->num_rows>0)
 {
     echo "Account found. Please enter the amount to be transferred: ";
@@ -42,6 +43,11 @@ if($result==true && $result->num_rows>0)
 
 </form>
 ");
+}
+
+else
+{
+    echo "<center>Account not found. Please recheck your Account Number and pin.</center>";
 }
 
 ?>
