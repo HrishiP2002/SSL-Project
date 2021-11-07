@@ -1,14 +1,14 @@
-1.What new Toll Plaza user should do?
-Ans: New user should create a new account and transfer the money into the Ewallet through bank account.
+What new Toll Plaza user should do in order to make a transaction at the toll plaza?
+Ans: New user should create a new account and transfer the money into the Ewallet through bank account in order to make a transaction at the toll plaza.
 
 2.What if User's Ewallet balance is not enough to pay the Toll?
 Ans: The user should transfer the money from it's bank account to Ewallet.
 
 3.What if user wants to see his last check out time-date in plaza?
-Ans: After log-in user will be offered to check the transaction history. 
+Ans: After log-in user will be offered to check the transaction history, once he is logged into his/her account. 
 
 4.What if the user forgets it's log-in password?
 Ans: On the Log-in screen there's a 'Forget Password' option here you can re-create Password for your account in the Toll Plaza.
 
 5.What is the administrator's role in Toll Plaza?
-Ans: Administrator can look into all the transactions done by all users whether it's 'Successfull' or 'Failed' , also he is able to see the total amount collected in the Toll Plaza from all users.        
+Ans: Administrator can look into the details of all the transactions done by all users whether it's 'Successfull' or 'Failed' , also he is able to see the total revenue collected at the Toll Plaza from all users.     
