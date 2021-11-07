@@ -59,7 +59,7 @@ else
 $sql3 = "CREATE TABLE Transactions(
     Tran_id INT NOT NULL AUTO_INCREMENT, /* Transaction id */
     User VARCHAR(120),
-    Dayy DATE,
+    Dayy VARCHAR(10),
     ExactTime DATETIME,
     Result VARCHAR (10), /*Successful or failure */
     CurrentIncome INT(20),

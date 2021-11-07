@@ -26,9 +26,11 @@ $sqll = "SELECT * FROM Users WHERE (Users.UserName = '$User') AND (Users.Pass = 
 
 $result = $conn->query($sqll);
 
-$count = $result->num_rows;
-
-if(  $count>0)
+if($result)
+{
+    $count = $result->num_rows;
+}
+if( $result==true and $count>0)
 {
     echo "Username and password authenticated";
     echo "<br>Please <a href = loginProceed.php>click here</a> to continue";

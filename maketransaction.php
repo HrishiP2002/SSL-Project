@@ -34,11 +34,11 @@ if($eWall_bal > 150)
 
     // echo $conn->error;
     $res = "Successful";
-    $date = date('m/d/Y', time());
+    $day = date('D', time());
     $time = date('Y-m-d H:i:s', time());
 
 
-    $sql4 = "INSERT INTO Transactions(User, Dayy, ExactTime, Result, CurrentIncome) VALUES('$user', '$date', '$time', '$res', 150)";
+    $sql4 = "INSERT INTO Transactions(User, Dayy, ExactTime, Result, CurrentIncome) VALUES('$user', '$day', '$time', '$res', 150)";
 
     $conn->query($sql4);
 
@@ -55,11 +55,11 @@ else
 
     // echo $conn->error;
     $res = "Failed";
-    $date = date('m/d/Y', time());
+    $day = date('D', time());
     $time = date('Y-m-d H:i:s', time());
 
 
-    $sql4 = "INSERT INTO Transactions(User, Dayy, ExactTime, Result, CurrentIncome) VALUES('$user', '$date', '$time', '$res', 150)";
+    $sql4 = "INSERT INTO Transactions(User, Dayy, ExactTime, Result, CurrentIncome) VALUES('$user', '$day', '$time', '$res', 0)";
 
     $conn->query($sql4);
 
